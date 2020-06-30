@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    --background-color: white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.color-picker{
+    display: grid;
+    grid-template-columns: 120px 100px;
+    width: 40vw;
+    color: red;
+    align-items: center;
+}
+
+.toggle{
+    display: grid;
+    grid-template-columns: 120px 100px;
+    width: 40vw;
+    align-items: center;
+    color: blue;
+}
+
+.theme-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90vw;
+    align-items: center;
+    margin-top: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
